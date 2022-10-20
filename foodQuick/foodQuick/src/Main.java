@@ -177,7 +177,7 @@ public class Main {
 
         try {
 
-            FileWriter generateInvoice = new FileWriter("./src/invoice.txt");
+            FileWriter generateInvoice = new FileWriter("./src/invoiceDetails.txt");
             if (!driverLocationCheck) {
                 generateInvoice
                         .write("Sorry! Our drivers are too far away from you to be able to deliver to your location.");
