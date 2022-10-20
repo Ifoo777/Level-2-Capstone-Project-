@@ -18,7 +18,7 @@ public class Main {
 
         // Read the text file to pull out driver infomation 
 
-        File driverInformation = new File("./src/drivers.txt");
+        File driverInformation = new File("./src/driver-info.txt");
         System.out.println(driverInformation.getAbsolutePath());
 
         // Create scanner object with the specific filename name to read data through driver
